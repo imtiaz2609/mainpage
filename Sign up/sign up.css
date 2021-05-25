@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(33, 36, 60);
+  color: #fff;
+}
+header{
+  background-color: rgb(240, 89, 37);
+  padding: 10px;
+  margin-top: -4px;
+  padding-left: 20px;
+}
+header img{
+  width: 200px;
+}
+.signup-form{
+  border: 3px solid black;
+  width: 550px;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: rgb(28, 26, 39);
+  box-shadow: 0px 0px 3px 4px rgb(136, 74, 2);
+}
+.signup-form h4{
+  text-align: center;
+  font-size: 22px;
+  font-family: arial black;
+  color: rgb(255, 94, 0);
+  border-bottom: 3px solid;
+  padding-bottom: 8px;
+}
+label[for=first-name]{
+  font-size: 20px;
+  color: aqua;
+}
+#first-name{
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  outline: none;
+  margin: 6px -7px;
+  font-size: 18px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+}
+#first-name:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=last-name]{
+  font-size: 20px;
+  color: aqua;
+}
+#last-name{
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  outline: none;
+  margin: 6px -7px;
+  font-size: 18px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+}
+#last-name:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=gender]{
+  font-size: 20px;
+  color: aqua;
+}
+#gender{
+  width: 100%;
+  padding: 5px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  margin: 6px 0px;
+}
+#gender:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=email]{
+  font-size: 20px;
+  color: aqua;
+}
+#email{
+  width: 100%;
+  padding: 5px;
+  color: black;
+  outline: none;
+  border-radius: 8px;
+  margin: 6px -7px;
+  background-color: rgb(189, 179, 179) ;
+  font-size: 18px;
+}
+#email:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=phone]{
+  color: aqua;
+  font-size: 20px;
+}
+#phone{
+  width: 100%;
+  padding: 5px;
+  margin: 6px -7px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+}
+#phone:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=password]{
+  font-size: 20px;
+  color: aqua;
+}
+#password{
+  width: 100%;
+  color: black;
+  padding: 5px;
+  margin: 6px -7px;
+  background-color: rgb(189, 179, 179);
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+}
+#password:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=c-password]{
+  font-size: 20px;
+  color: aqua;
+}
+#c-password{
+  width: 100%;
+  padding: 5px;
+  margin: 6px -7px;
+  border-radius: 8px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+  font-size: 18px;
+  outline: none;
+}
+#c-password:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=country]{
+  font-size: 20px;
+  color: aqua;
+}
+#country{
+  width: 100%;
+  padding: 5px;
+  margin: 6px -7px;
+  color: black;
+  border-radius: 8px;
+  background-color: rgb(189, 179, 179);
+  outline: none;
+  font-size: 18px;
+}
+#country:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=city]{
+  font-size: 20px;
+  color: aqua;
+}
+#city{
+  width: 100%;
+  padding: 5px;
+  margin: 6px -7px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+  font-size: 18px;
+  border-radius: 8px;
+  outline: none;
+}
+#city:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=zip-code]{
+  font-size: 20px;
+  color: aqua;
+}
+#zip-code{
+  width: 100%;
+  padding: 5px;
+  margin: 6px -7px;
+  color: black;
+  background-color: rgb(189, 179, 179);
+  outline: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+#zip-code:focus{
+  border: dodgerblue;
+  box-shadow: 0 0 3px 3px rgb(93, 165, 238);
+}
+label[for=profile-pic]{
+  color: aqua;
+  font-size: 20px;
+}
+#profile-pic{
+  border-radius:50px;
+  background-color: rgb(53, 44, 65);
+  font-size: 18px;
+  color: rgb(72, 255, 0);
+  margin: 6px -7px;
+}
+label[for=remember-me]{
+  font-size: 17px;
+  color: aqua;
+}
+.submit{
+  width: 40%;
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 10px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 94, 0, 0.726);
+  box-shadow:  0 0 3px 4px rgb(26, 22, 22);
+  font-family: Arial;
+}
+.submit:hover{
+  background-color: rgb(255, 81, 0);
+  transition: .4s;
+}
+.reset{
+  width: 40%;
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 10px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(230, 47, 15, 0.788);
+  box-shadow:  0 0 3px 4px rgb(26, 22, 22);
+  margin-left: 80px;
+  font-family: Arial;
+}
+.reset:hover{
+  background-color: rgb(255, 0, 0);
+  transition: .4s;
+}
+.already-have-an-account{
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+.already-have-an-account a{
+  text-decoration: none;
+  color: rgb(247, 212, 159);
+}
+.already-have-an-account a:hover{
+  color:red ;
+  transition: .2s;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color:rgb(240, 89, 37) ;
+}
